@@ -1,7 +1,7 @@
 import Vue, { VNode } from 'vue'
 import { startsWith } from './helpers'
 
-export default Vue.extend({
+const component = Vue.extend({
   name: 'VueLazyYoutubeVideo',
   props: {
     src: {
@@ -212,3 +212,7 @@ export default Vue.extend({
     )
   },
 })
+
+export default component
+
+export type IVueLazyYoutubeVideo = typeof component
