@@ -4,7 +4,6 @@ import vue from 'rollup-plugin-vue'
 import serve from 'rollup-plugin-serve'
 import livereload from 'rollup-plugin-livereload'
 import replace from 'rollup-plugin-replace'
-import css from 'rollup-plugin-css-only'
 
 import typescriptPluginOptions from './base/plugins/typescript'
 import plugins from './base/plugins/index'

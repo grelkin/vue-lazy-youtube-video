@@ -2,7 +2,6 @@ import path from 'path'
 import typescript from 'rollup-plugin-typescript2'
 import replace from 'rollup-plugin-replace'
 import { terser } from 'rollup-plugin-terser'
-import css from 'rollup-plugin-css-only'
 
 import typescriptPluginOptions from './base/plugins/typescript'
 import basePlugins from './base/plugins/index'
